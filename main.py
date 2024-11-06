@@ -1,1 +1,3 @@
-from Chest Cancer Classifier import logger
+from ChestCancerClassifier import logger
+
+logger.info("Welcome to ChestCancerClassifier!")
