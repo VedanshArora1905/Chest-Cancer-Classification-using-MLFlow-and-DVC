@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
 
 
 
-project_name = "Chest Cancer Classifier"
+project_name = "ChestCancerClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
