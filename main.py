@@ -2,7 +2,7 @@ from ChestCancerClassifier import logger
 from ChestCancerClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from ChestCancerClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from ChestCancerClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipeline
-#from ChestCancerClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
+from ChestCancerClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 
 
 
@@ -33,6 +33,7 @@ except Exception as e:
 
 
 
+
 STAGE_NAME = "Training"
 try: 
    logger.info(f"*******************")
@@ -44,18 +45,18 @@ except Exception as e:
         logger.exception(e)
         raise e
 
-#
-#
-#
-#
-#STAGE_NAME = "Evaluation stage"
-#try:
-#   logger.info(f"*******************")
-#   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#   model_evalution = EvaluationPipeline()
-#   model_evalution.main()
-#   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
-#
-#except Exception as e:
-#        logger.exception(e)
-#        raise e
+
+
+
+
+STAGE_NAME = "Evaluation stage"
+try:
+   logger.info(f"*******************")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   model_evalution = EvaluationPipeline()
+   model_evalution.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+
+except Exception as e:
+        logger.exception(e)
+        raise e

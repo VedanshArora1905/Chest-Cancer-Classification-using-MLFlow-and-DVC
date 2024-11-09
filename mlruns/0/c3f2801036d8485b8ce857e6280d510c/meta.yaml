@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Coding/Chest-Cancer-Classification-using-MLFlow-and-DVC/mlruns/0/c3f2801036d8485b8ce857e6280d510c/artifacts
+end_time: 1730998946944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c3f2801036d8485b8ce857e6280d510c
+run_name: bemused-snail-759
+run_uuid: c3f2801036d8485b8ce857e6280d510c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730998927583
+status: 3
+tags: []
+user_id: Vedan

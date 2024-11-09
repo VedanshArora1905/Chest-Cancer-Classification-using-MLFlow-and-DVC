@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Coding/Chest-Cancer-Classification-using-MLFlow-and-DVC/mlruns/0/3d980c1aefef4117946a79e0ba90f985/artifacts
+end_time: 1730997830490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d980c1aefef4117946a79e0ba90f985
+run_name: fearless-worm-1000
+run_uuid: 3d980c1aefef4117946a79e0ba90f985
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730997811853
+status: 4
+tags: []
+user_id: Vedan
