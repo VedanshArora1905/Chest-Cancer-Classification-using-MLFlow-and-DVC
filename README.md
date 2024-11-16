@@ -124,7 +124,7 @@ newgrp docker
 
 6. Configure EC2 as self-hosted runner:
 ```bash
-setting>actions>runner>new self hosted runner> choose os> then run command one by one
+setting>actions>runner>new self hosted runner > choose os > then run command one by one
 ```
 7. Setup github secrets:
 ```bash
@@ -132,9 +132,9 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
+AWS_REGION = 
 
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = 
 
-ECR_REPOSITORY_NAME = simple-app
+ECR_REPOSITORY_NAME = 
 ```
