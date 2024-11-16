@@ -82,7 +82,7 @@ It can perform Orchestration (Creating Pipelines)
 
 2. Push your docker image to ECR
 
-3. Launch EC2 
+3. Launch your EC2 
 
 4. Pull Your image from ECR in EC2
 
