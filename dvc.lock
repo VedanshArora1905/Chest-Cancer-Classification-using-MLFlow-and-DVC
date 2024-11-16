@@ -97,8 +97,8 @@ stages:
       size: 580
     - path: src/ChestCancerClassifier/pipeline/stage_04_model_evaluation.py
       hash: md5
-      md5: cdebe9c2606e1faf0df0c7c97fde73e7
-      size: 918
+      md5: 94cb74480cb67a048f99cd85cc127b27
+      size: 919
     params:
       params.yaml:
         BATCH_SIZE: 16
