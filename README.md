@@ -34,12 +34,7 @@ Run this to export as ENV variables
 
  ```bash
 
-set MLFLOW_TRACKING_URI=https://dagshub.com/VedanshArora1905/Chest-Cancer-Classification-using-MLFlow-and-DVC.mlflow
-
-set MLFLOW_TRACKING_USERNAME=VedanshArora1905
-
-set MLFLOW_TRACKING_PASSWORD=Vedansh@1122
-
+  
 ```
 
 ### DVC cmd

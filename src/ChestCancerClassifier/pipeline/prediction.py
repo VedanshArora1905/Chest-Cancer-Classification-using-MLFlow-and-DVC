@@ -1,6 +1,6 @@
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.preprocessing import image # type: ignore
 import os
 
 
@@ -25,8 +25,8 @@ class PredictionPipeline:
         print(result)
 
         if result[0] == 1:
-            prediction = 'Normal'
-            return [{ "image" : prediction}]
-        else:
             prediction = 'Adenocarcinoma Cancer'
+            return [{"image" : prediction}]
+        else:
+            prediction = 'NORMAL'
             return [{ "image" : prediction}]
