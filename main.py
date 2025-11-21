@@ -1,3 +1,7 @@
+import tensorflow as tf
+# Enable eager execution for TensorFlow
+tf.config.run_functions_eagerly(True)
+
 from ChestCancerClassifier import logger
 from ChestCancerClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from ChestCancerClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
